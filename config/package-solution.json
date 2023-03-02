@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "header-footer-azure-client-side-solution",
+    "id": "43117f07-b5fb-4704-aa9c-36a112216856",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Header-Footer-Azure description"
+      },
+      "longDescription": {
+        "default": "Header-Footer-Azure description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "905c6598-a4e2-4962-9f7d-0e9c14947f0b",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "ClientSideInstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/header-footer-azure.sppkg"
+  }
+}

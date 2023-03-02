@@ -1,0 +1,22 @@
+.header1{
+    background-color: orangered;
+    height: 40px;
+    /* background-image: url("./images\ \(1\).jpg"); */
+}
+.header2{
+    text-align: center;
+    font-optical-sizing: auto;
+    color: white;
+}
+.border1{
+    background-color: orangered;
+    height: 25px;
+    text-align: center;
+}
+.border2{
+    text-align: center;
+    font-optical-sizing: auto;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
