@@ -29,7 +29,7 @@ export default class HeaderFooterApplicationCustomizer
 
     let message: string = this.properties.testMessage;
     if (!message) {
-      message = '(No properties were provided.)';
+      message = '(No properties were provided)';
     }
 
     let topPlaceholder: PlaceholderContent = this.context.placeholderProvider.tryCreateContent(PlaceholderName.Top); 
